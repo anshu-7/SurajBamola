@@ -1,0 +1,14 @@
+.pf{
+    font-family: 'Poppins', sans-serif;
+    background-color:blanchedalmond
+}
+
+.details{
+    margin-left: 250px;
+    margin-right: 250px;
+    border-style: solid;
+    border-radius: 25px;
+    border-color: brown;
+    padding: 10px;
+    margin-bottom: 10px;
+}

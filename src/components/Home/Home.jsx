@@ -1,16 +1,16 @@
-import NavBar from "../utils/NavBar";
-import ImageSlider from "../utils/ImageSlider";
+import NavBar from "../../utils/NavBar";
+import ImageSlider from "../../utils/ImageSlider";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import EPFLogo from '../assets/EPFO-Black.png'
-import ESICLogo from '../assets/ESIC-Black.png'
+import EPFLogo from '../../assets/EPFO-Black.png'
+import ESICLogo from '../../assets/ESIC-Black.png'
 import './Home.css'
 function Home() {
   return (
-    <div>
+    <div className="home">
       <NavBar/>
       <ImageSlider/>
       <div className = "intro">

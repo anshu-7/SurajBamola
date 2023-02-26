@@ -1,0 +1,10 @@
+.contactUs{
+    font-family: 'Poppins', sans-serif; 
+    /* background-color: red; */
+}
+.form {
+    margin-left: 250px;
+    margin-right: 250px;
+    border-style: solid;
+    border-radius: 25px;
+}
