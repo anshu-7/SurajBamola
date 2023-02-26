@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/SurajBamola/static/css/main.1f1f194e.css",
-    "main.js": "/SurajBamola/static/js/main.19386cd3.js",
+    "main.css": "/SurajBamola/static/css/main.52ab995d.css",
+    "main.js": "/SurajBamola/static/js/main.70c14664.js",
     "static/js/787.9b1da57c.chunk.js": "/SurajBamola/static/js/787.9b1da57c.chunk.js",
     "static/media/ESIC-Black.png": "/SurajBamola/static/media/ESIC-Black.4648e2e9ceae70fa13f5.png",
     "static/media/EPFO-Black.png": "/SurajBamola/static/media/EPFO-Black.df7ed043789c142baf9a.png",
     "index.html": "/SurajBamola/index.html",
-    "main.1f1f194e.css.map": "/SurajBamola/static/css/main.1f1f194e.css.map",
-    "main.19386cd3.js.map": "/SurajBamola/static/js/main.19386cd3.js.map",
+    "main.52ab995d.css.map": "/SurajBamola/static/css/main.52ab995d.css.map",
+    "main.70c14664.js.map": "/SurajBamola/static/js/main.70c14664.js.map",
     "787.9b1da57c.chunk.js.map": "/SurajBamola/static/js/787.9b1da57c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f1f194e.css",
-    "static/js/main.19386cd3.js"
+    "static/css/main.52ab995d.css",
+    "static/js/main.70c14664.js"
   ]
 }
