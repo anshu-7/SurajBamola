@@ -12,17 +12,16 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
           <Link className="navbar-brand" to="/">Home</Link>
-            {/* <Nav.Link href="/">Home</Nav.Link> */}
-            <Nav.Link href="#link">Link</Nav.Link>
-            <NavDropdown title="Services" id="basic-nav-dropdown">
+            <Link className="navbar-brand" to="/">Link</Link>
+
+
+            
+            <NavDropdown  title="Services" id="basic-nav-dropdown">
             <Link className="navbar-brand" to="/pf">PF Registration</Link>
             <br/>
             <Link className="navbar-brand" to="/esic">ESIC Registration</Link>
             <br/>
             <Link className="navbar-brand" to="/dsc">DSC Registration</Link>
-              {/* <NavDropdown.Item href="/pf">PF Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/esic">ESIC Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/dsc">DSC Registration</NavDropdown.Item> */}
               <NavDropdown.Item href="#action/3.3">PF Withdrawal</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">MSME Registration</NavDropdown.Item>
               {/* <NavDropdown.Divider />
@@ -40,12 +39,16 @@ function NavBar() {
               </NavDropdown.Item> */}
             </NavDropdown>
 
-            <Nav.Link href="#link">About Us</Nav.Link>
-            <Nav.Link href="#link">Gallery</Nav.Link>
+            {/* <Nav.Link href="#link">About Us</Nav.Link>
+            <Nav.Link href="#link">Gallery</Nav.Link> */}
+            <Link className="navbar-brand" to="/">About Us</Link>
+            <Link className="navbar-brand" to="/">Gallery</Link>
             {/* <Nav.Link href="/contactUs">Contact Us</Nav.Link> */}
             <Link className="navbar-brand" to="/contactUs">Contact Us</Link>
-            <Nav.Link href="#link">Career</Nav.Link>
-            <Nav.Link href="#link">Privacy Policy</Nav.Link>
+            <Link className="navbar-brand" to="/">Career</Link>
+            <Link className="navbar-brand" to="/">Privacy Policy</Link>
+            {/* <Nav.Link href="#link">Career</Nav.Link>
+            <Nav.Link href="#link">Privacy Policy</Nav.Link> */}
           </Nav>
         </Navbar.Collapse>
       </Container>

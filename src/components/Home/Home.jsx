@@ -15,14 +15,14 @@ function Home() {
     <div className="home">
       <NavBar/>
       <ImageSlider/>
-      <div className = "intro">
+      {/* <div className = "intro">
          <div>Image 1</div>
          <div>
          <h2 className="heading_text">The Best ESI PF Consultant - Chakraborty Consultancy offers many services!</h2>
          <p className="description_text">As a ESI PF consultant, we provide PF & ESIC registration and monthly return file, PF Withdrawal. Digital Signature Certificate / DSC Registration.</p>
        </div>
                <div>Image 2</div>
-      </div>
+      </div> */}
       {/* <Container fluid>
       <Row>
       <h1>The Best ESI PF Consultant - Chakraborty Consultancy offers many services!</h1>
@@ -33,6 +33,10 @@ function Home() {
 
 
     <div className="heading">
+    <div>
+         <h2 className="heading_text">The Best ESI PF Consultant - Chakraborty Consultancy offers many services!</h2>
+         <p className="description_text">As a ESI PF consultant, we provide PF & ESIC registration and monthly return file, PF Withdrawal. Digital Signature Certificate / DSC Registration.</p>
+       </div>
       <div className="small_text">Features</div>
       <div className="heading_text">We offer many services for&nbsp;&nbsp;
       <Typed
@@ -51,7 +55,9 @@ function Home() {
       
     </div>
     <div className="cards">
-    <Card>
+
+    <Row>
+      <Col><Card>
       <Card.Img variant="top" src= {EPFLogo} className = "logo"/>
       <Card.Body>
         <Card.Title>EPF Consultant</Card.Title>
@@ -60,8 +66,8 @@ function Home() {
         </Card.Text>
         <Button variant="primary">Read More</Button>
       </Card.Body>
-    </Card>
-
+    </Card></Col>
+    <Col>
     <Card >
       <Card.Img variant="top" src= {ESICLogo} className = "logo"/>
       <Card.Body>
@@ -73,6 +79,8 @@ function Home() {
       </Card.Body>
     </Card>
 
+    </Col>
+    <Col>
     <Card>
       <Card.Img variant="top" src= {EPFLogo} className = "logo" />
       <Card.Body>
@@ -83,6 +91,15 @@ function Home() {
         <Button variant="primary">Read More</Button>
       </Card.Body>
     </Card>
+    </Col>
+    </Row>
+
+
+    
+
+    
+
+    
     </div>
     <div className="heading">
       <p className="small_text">
@@ -92,7 +109,7 @@ function Home() {
       </p>
       
     </div>
-       <Footer/>
+       {/* <Footer/> */}
 
     </div>
   );

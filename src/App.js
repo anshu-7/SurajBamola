@@ -5,6 +5,7 @@ import Pf from './Pages/pf/Pf';
 import Esic from './Pages/ESIC/Esic';
 import NavBar from './utils/NavBar';
 import Dsc from './Pages/DSC/Dsc';
+import Footer from './utils/Footer';
 
 import {
   BrowserRouter as Router,
@@ -25,6 +26,7 @@ function App() {
           
         </Routes>
          </Router>
+         <Footer/>
     </div>
   );
 }
