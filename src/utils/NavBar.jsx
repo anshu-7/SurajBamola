@@ -13,9 +13,9 @@ function NavBar() {
             <Nav.Link href="/SurajBamola">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/pf">PF Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/esic">ESIC Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/dsc">DSC Registration</NavDropdown.Item>
+              <NavDropdown.Item href="/SurajBamola/pf">PF Registration</NavDropdown.Item>
+              <NavDropdown.Item href="/SurajBamola/esic">ESIC Registration</NavDropdown.Item>
+              <NavDropdown.Item href="/SurajBamola/dsc">DSC Registration</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">PF Withdrawal</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">MSME Registration</NavDropdown.Item>
               {/* <NavDropdown.Divider />
@@ -35,7 +35,7 @@ function NavBar() {
 
             <Nav.Link href="#link">About Us</Nav.Link>
             <Nav.Link href="#link">Gallery</Nav.Link>
-            <Nav.Link href="/contactUs">Contact Us</Nav.Link>
+            <Nav.Link href="/SurajBamola/contactUs">Contact Us</Nav.Link>
             <Nav.Link href="#link">Career</Nav.Link>
             <Nav.Link href="#link">Privacy Policy</Nav.Link>
           </Nav>

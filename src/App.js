@@ -18,10 +18,10 @@ function App() {
          {/* <NavBar/> */}
          <Routes>
           <Route exact  path="/SurajBamola" element = {<Home/>}></Route>
-          <Route exact  path="/contactUs" element = {<ContactUs/>}></Route>
-          <Route exact  path="/pf" element = {<Pf/>}></Route>
-          <Route exact  path="/esic" element = {<Esic/>}></Route>
-          <Route exact  path="/dsc" element = {<Dsc/>}></Route>
+          <Route exact  path="/SurajBamola/contactUs" element = {<ContactUs/>}></Route>
+          <Route exact  path="/SurajBamola/pf" element = {<Pf/>}></Route>
+          <Route exact  path="/SurajBamola/esic" element = {<Esic/>}></Route>
+          <Route exact  path="/SurajBamola/dsc" element = {<Dsc/>}></Route>
           
         </Routes>
          </Router>
