@@ -6,16 +6,16 @@ function NavBar() {
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/SurajBamola">CONSULTANCY</Navbar.Brand>
+        <Navbar.Brand href="/">CONSULTANCY</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/SurajBamola">Home</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/SurajBamola/pf">PF Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/SurajBamola/esic">ESIC Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/SurajBamola/dsc">DSC Registration</NavDropdown.Item>
+              <NavDropdown.Item href="/pf">PF Registration</NavDropdown.Item>
+              <NavDropdown.Item href="/esic">ESIC Registration</NavDropdown.Item>
+              <NavDropdown.Item href="/dsc">DSC Registration</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">PF Withdrawal</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">MSME Registration</NavDropdown.Item>
               {/* <NavDropdown.Divider />
@@ -35,7 +35,7 @@ function NavBar() {
 
             <Nav.Link href="#link">About Us</Nav.Link>
             <Nav.Link href="#link">Gallery</Nav.Link>
-            <Nav.Link href="/SurajBamola/contactUs">Contact Us</Nav.Link>
+            <Nav.Link href="/contactUs">Contact Us</Nav.Link>
             <Nav.Link href="#link">Career</Nav.Link>
             <Nav.Link href="#link">Privacy Policy</Nav.Link>
           </Nav>
