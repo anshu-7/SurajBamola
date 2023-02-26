@@ -4,9 +4,11 @@
 
 .home{
     font-family: 'Poppins', sans-serif;
+    /* background-color: rgb(226, 224, 103); */
+   
 }
 .intro{
-    background-color: #F0F3F9;
+    /* background-color:blanchedalmond; */
     height: 100%;
     width: 100%;
     padding-top: 200px;
@@ -45,6 +47,7 @@ p {
     display: block;
     padding-top: 150px;
     padding-bottom: 80px;
+    background-color: blanchedalmond;
 }
 
 .small_text{

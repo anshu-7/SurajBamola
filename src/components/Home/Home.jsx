@@ -5,9 +5,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import EPFLogo from '../assets/EPFO-Black.png'
-import ESICLogo from '../assets/ESIC-Black.png'
-import Footer from "../utils/Footer";
+import EPFLogo from '../../assets/EPFO-Black.png'
+import ESICLogo from '../../assets/ESIC-Black.png'
+import Footer from "../../utils/Footer";
 import './Home.css'
 import Typed from 'react-typed';
 function Home() {
