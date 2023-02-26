@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 function NavBar() {    
   return (
     <Navbar bg="light" expand="lg">
@@ -10,12 +11,18 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
+          <Link className="navbar-brand" to="/">Home</Link>
+            {/* <Nav.Link href="/">Home</Nav.Link> */}
             <Nav.Link href="#link">Link</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown">
-              <NavDropdown.Item href="/pf">PF Registration</NavDropdown.Item>
+            <Link className="navbar-brand" to="/pf">PF Registration</Link>
+            <br/>
+            <Link className="navbar-brand" to="/esic">ESIC Registration</Link>
+            <br/>
+            <Link className="navbar-brand" to="/dsc">DSC Registration</Link>
+              {/* <NavDropdown.Item href="/pf">PF Registration</NavDropdown.Item>
               <NavDropdown.Item href="/esic">ESIC Registration</NavDropdown.Item>
-              <NavDropdown.Item href="/dsc">DSC Registration</NavDropdown.Item>
+              <NavDropdown.Item href="/dsc">DSC Registration</NavDropdown.Item> */}
               <NavDropdown.Item href="#action/3.3">PF Withdrawal</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.3">MSME Registration</NavDropdown.Item>
               {/* <NavDropdown.Divider />
@@ -35,7 +42,8 @@ function NavBar() {
 
             <Nav.Link href="#link">About Us</Nav.Link>
             <Nav.Link href="#link">Gallery</Nav.Link>
-            <Nav.Link href="/contactUs">Contact Us</Nav.Link>
+            {/* <Nav.Link href="/contactUs">Contact Us</Nav.Link> */}
+            <Link className="navbar-brand" to="/contactUs">Contact Us</Link>
             <Nav.Link href="#link">Career</Nav.Link>
             <Nav.Link href="#link">Privacy Policy</Nav.Link>
           </Nav>
