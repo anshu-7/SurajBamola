@@ -7,7 +7,9 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import EPFLogo from '../assets/EPFO-Black.png'
 import ESICLogo from '../assets/ESIC-Black.png'
+import Footer from "../utils/Footer";
 import './Home.css'
+import Typed from 'react-typed';
 function Home() {
   return (
     <div>
@@ -32,7 +34,15 @@ function Home() {
 
     <div className="heading">
       <div className="small_text">Features</div>
-      <div className="heading_text">We offer many services to progress!</div>
+      <div className="heading_text">We offer many services for&nbsp;&nbsp;
+      <Typed
+          className='text-primary'
+            strings={['EPF Consultant', 'ESIC Consultant', 'PF Withdrawal']}
+            typeSpeed={100}
+            backSpeed={110}
+            loop
+          />
+      </div>
       <div className="small_text_sub">Features</div>
       <p className="description_text">
       As a PF ESI consultant, We provide PF & ESIC registration and monthly return filling<br/>
@@ -82,7 +92,7 @@ function Home() {
       </p>
       
     </div>
-
+       <Footer/>
 
     </div>
   );
